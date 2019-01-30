@@ -20,6 +20,9 @@
         "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
       }
     },
+    "supportsHttpsTrafficOnly": {
+        "type": "bool"
+    },
     "windowsOSVersion": {
       "type": "string",
       "defaultValue": "2019-Datacenter",
